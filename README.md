@@ -7,3 +7,5 @@
 ## Ejecucion
 
 - Para poder ejecutar los programas es necesario tener un virtual enviroment, en este caso use virtualenv, una vez instalado hay que instalar el archivo requirements para usar las librerias.
+
+Para el ejercicio dos se necesita imprimir un aruco marker que se obtienen de la siguiente pagina https://chev.me/arucogen/

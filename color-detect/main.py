@@ -1,6 +1,5 @@
 """
 App that detect if a object contains the orange color
-TODO: Search for a better orange range of colors
 """
 import cv2
 from object_detector import *

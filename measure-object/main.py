@@ -56,7 +56,9 @@ while True:
             cv2.putText(frame, "Width {} cm".format(round(object_width, 1)), (int(x - 100), int(y - 20)), cv2.FONT_HERSHEY_PLAIN, 2, (100, 200, 0), 2)
             cv2.putText(frame, "Height {} cm".format(round(object_height, 1)), (int(x - 100), int(y + 15)), cv2.FONT_HERSHEY_PLAIN, 2, (100, 200, 0), 2)
 
+    # Show the frame
     cv2.imshow("Measure object", frame)
+    # Press q to exit
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
